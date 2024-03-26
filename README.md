@@ -3,11 +3,11 @@
 - An Outlook into the Future of Egocentric Vision [[link](https://arxiv.org/pdf/2308.07123.pdf)]
 ***
 ### Dataset
-- 2022
+### 2022
 1. (CVPR) Ego4D: Around the World in 3000 Hours of Egocentric Video [[link](https://arxiv.org/pdf/2110.07058.pdf)]
 2. (ECCV) Find-Grained Egocentric Hand-Object Segmentation: Dataset, Model, and Applications [[link](https://arxiv.org/pdf/2208.03826.pdf)]
 
-- 2023
+### 2023
 1. (NeurIPS) EgoTracks: A Long-term Egocentric Visual Object Tracking Dataset [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/ef01d91aa87e7701aa9c8dc66a2d5bdb-Paper-Datasets_and_Benchmarks.pdf)]
 2. (NeurIPS) EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/90ce332aff156b910b002ce4e6880dec-Paper-Datasets_and_Benchmarks.pdf)]
 3. (ICCV) HoloAssist: An Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_HoloAssist_an_Egocentric_Human_Interaction_Dataset_for_Interactive_AI_Assistants_ICCV_2023_paper.pdf)]
@@ -16,9 +16,6 @@
 6. MIMIC-IT: Multi-Modal In-Context Instruction Tuning [[link](https://arxiv.org/pdf/2306.05425.pdf)]
 
 ## Video-Language Pretraining Model
-
----
-
 ### 2022
 
 1. (NeurIPS) Egocentric Video-Language Pretraining [[link](https://proceedings.neurips.cc/paper_files/paper/2022/file/31fb284a0aaaad837d2930a610cd5e50-Paper-Conference.pdf)]
@@ -30,8 +27,6 @@
 
 ## Visual Representation (ego-exo)
 
----
-
 ### 2021
 
 1. (CVPR) Ego-Exo: Transferring Visual Representations from Third-person to First-person Videos [[link](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Ego-Exo_Transferring_Visual_Representations_From_Third-Person_to_First-Person_Videos_CVPR_2021_paper.pdf)]
@@ -41,31 +36,20 @@
 1. (NeurIPS) Learning Fine-grained View-Invariant Representations from Unpaired Ego-Exo Videos via Temporal Alignment [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/a845fdc3f87751710218718adb634fe7-Paper-Conference.pdf)]
 
 ## Audio-Visual Object Localization
-
----
-
 ### 2023
 
 1. (CVPR) Egocentric Audio-Visual Object Localization [[link](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Egocentric_Audio-Visual_Object_Localization_CVPR_2023_paper.pdf)]
 
 ## Object Detection
-
----
-
 ### 2023
 
 1. (ICCV) Self-Supervised Object Detection from Egocentric Videos [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Akiva_Self-Supervised_Object_Detection_from_Egocentric_Videos_ICCV_2023_paper.pdf)]
 
 ## Action Detection and Recognition
-
----
-
 ### 2023
 
 1. (ICCV) Ego-only: Egocentric Action Detection without Exocentric Transferring [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Ego-Only_Egocentric_Action_Detection_without_Exocentric_Transferring_ICCV_2023_paper.pdf)]
 
 ## Egocentric Video Captioning
-
----
 
 1. Retrieval-Augmented Egocentric Video Captioning [[link](https://arxiv.org/pdf/2401.00789.pdf)]
