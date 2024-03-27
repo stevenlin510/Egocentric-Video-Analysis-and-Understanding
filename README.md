@@ -10,10 +10,11 @@
 ### 2023
 > 1. **(NeurIPS) EgoTracks: A Long-term Egocentric Visual Object Tracking Dataset** [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/ef01d91aa87e7701aa9c8dc66a2d5bdb-Paper-Datasets_and_Benchmarks.pdf)]
 > 2. **(NeurIPS) EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding** [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/90ce332aff156b910b002ce4e6880dec-Paper-Datasets_and_Benchmarks.pdf)]
-> 3. **(ICCV) HoloAssist: An Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World** [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_HoloAssist_an_Egocentric_Human_Interaction_Dataset_for_Interactive_AI_Assistants_ICCV_2023_paper.pdf)]
-> 4. **(ICCV) Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception** [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_ICCV_2023_paper.pdf)]
-> 5. **(CVPR) AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation** [[link](https://openaccess.thecvf.com/content/CVPR2023/papers/Ohkawa_AssemblyHands_Towards_Egocentric_Activity_Understanding_via_3D_Hand_Pose_Estimation_CVPR_2023_paper.pdf)]
-> 6. **MIMIC-IT: Multi-Modal In-Context Instruction Tuning** [[link](https://arxiv.org/pdf/2306.05425.pdf)]
+> 3. **(NeurIPS) Ego4D Goal-Step: Toward Hierarchical Understanding of Procedural Activities** [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/7a65606fa1a6849450550325832036e5-Paper-Datasets_and_Benchmarks.pdf)]
+> 4. **(ICCV) HoloAssist: An Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World** [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_HoloAssist_an_Egocentric_Human_Interaction_Dataset_for_Interactive_AI_Assistants_ICCV_2023_paper.pdf)]
+> 5. **(ICCV) Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception** [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_ICCV_2023_paper.pdf)]
+> 6. **(CVPR) AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation** [[link](https://openaccess.thecvf.com/content/CVPR2023/papers/Ohkawa_AssemblyHands_Towards_Egocentric_Activity_Understanding_via_3D_Hand_Pose_Estimation_CVPR_2023_paper.pdf)]
+> 7. **MIMIC-IT: Multi-Modal In-Context Instruction Tuning** [[link](https://arxiv.org/pdf/2306.05425.pdf)]
 
 ## Video-Language Pretraining Model
 ### 2022
