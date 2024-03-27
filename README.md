@@ -36,6 +36,8 @@
 
 > 1. **(NeurIPS) Learning Fine-grained View-Invariant Representations from Unpaired Ego-Exo Videos via Temporal Alignment** [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/a845fdc3f87751710218718adb634fe7-Paper-Conference.pdf)]
 
+> 2. **(ACMMM) POV: Prompt-Oriented View-Agnostic Learning for Egocentric Hand-Object Interaction in the Multi-view World** [[link](https://dl.acm.org/doi/pdf/10.1145/3581783.3612484)]
+
 ## Audio-Visual Object Localization
 ### 2023
 
@@ -57,9 +59,27 @@
 > 1. **Retrieval-Augmented Egocentric Video Captioning** [[link](https://arxiv.org/pdf/2401.00789.pdf)]
 
 ## Efficient Egocentric Video Understanding
-
-> 1. **EgoDistill: Egocentric Head Motion Distillation for Efficient Video Understanding** [[link](https://arxiv.org/abs/2301.02217)]
+### 2023
+> 1. **(NeurIPS)EgoDistill: Egocentric Head Motion Distillation for Efficient Video Understanding** [[link](https://arxiv.org/abs/2301.02217)]
 
 ## Procedure Learning
-
+### 2022
 > 1. **(ECCV) My View is the Best View: Procedure Learning from Egocentric Videos** [[link](https://arxiv.org/pdf/2207.10883.pdf)]
+
+## Popular Model Architectures
+### `2D`
+1. (CVPR 2020) GSM - *Gate-Shift Networks for Video Action Recognition* [[link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sudhakaran_Gate-Shift_Networks_for_Video_Action_Recognition_CVPR_2020_paper.pdf)] 
+2. (ICCV 2019) TSM - *Temporal Shift Module for Efficient Video Understanding*[[link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lin_TSM_Temporal_Shift_Module_for_Efficient_Video_Understanding_ICCV_2019_paper.pdf)]
+3. (ICCV 2019) TBN - *EPIC-Fusion: Audio-Visual Temporal Binding
+for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kazakos_EPIC-Fusion_Audio-Visual_Temporal_Binding_for_Egocentric_Action_Recognition_ICCV_2019_paper.pdf)]
+
+### `3D`
+1. (ICCV 2019) SlowFast - *SlowFast Networks for Video Recognition* [[link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Feichtenhofer_SlowFast_Networks_for_Video_Recognition_ICCV_2019_paper.pdf)]
+
+### `Transformer`
+1. (CVPRW 2022) Ego-Stan - *Building Spatio-temporal Transformers for Egocentric 3D Pose Estimation* [[link](https://arxiv.org/pdf/2206.04785)]
+2. (NeurIPS 2021) XViT - *Space-time Mixing Attention for Video Transformer*[[link](https://proceedings.neurips.cc/paper/2021/file/a34bacf839b923770b2c360eefa26748-Paper.pdf)]
+3. (ICML 2021) TimeSformer - *Is Space-Time Attention All You Need for Video Understanding?* [[link](https://arxiv.org/pdf/2102.05095)]
+4. (ICCV 2021) ViViT - *ViViT: A Video Vision Transformer* [[link](https://openaccess.thecvf.com/content/ICCV2021/papers/Arnab_ViViT_A_Video_Vision_Transformer_ICCV_2021_paper.pdf)]
+
+
