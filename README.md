@@ -59,3 +59,7 @@
 ## Efficient Egocentric Video Understanding
 
 > 1. **EgoDistill: Egocentric Head Motion Distillation for Efficient Video Understanding** [[link](https://arxiv.org/abs/2301.02217)]
+
+## Procedure Learning
+
+> 1. **(ECCV) My View is the Best View: Procedure Learning from Egocentric Videos** [[link](https://arxiv.org/pdf/2207.10883.pdf)]
