@@ -82,4 +82,39 @@ for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content
 3. (ICML 2021) TimeSformer - *Is Space-Time Attention All You Need for Video Understanding?* [[link](https://arxiv.org/pdf/2102.05095)]
 4. (ICCV 2021) ViViT - *ViViT: A Video Vision Transformer* [[link](https://openaccess.thecvf.com/content/ICCV2021/papers/Arnab_ViViT_A_Video_Vision_Transformer_ICCV_2021_paper.pdf)]
 
+### Benchmarks
+1. Kepstep (Ego-exo)
+    - Fine-grained Keystep Recognition [[link](https://docs.ego-exo4d-data.org/benchmarks/keystep/keystep_recoginition/)]
+
+        ```shell
+        [Train]
+        Input: 1 ego + N exo trimmed video clips
+        Output: Keystep label
+
+        [Inference]
+        Input: A trimmed egocentric video clip
+        Output: Predicted keystep label
+        ```
+    - Task Graph [[link](https://docs.ego-exo4d-data.org/benchmarks/keystep/task_graph/)]
+        > Determine how each task should be performed (using keysteps) based on a given video segment.
+        Given a video segment $s_i$ and its segment history $S_{:i-1} = \{s_1, \ldots, s_{i-1}\}$, models have to:
+
+        - Determine the list of previous keysteps to be performed before $s_i$;
+        - Infer if $s_i$ is an optional keystep, i.e., the procedure can be completed even skipping this keystep;
+        - Infer if $s_i$ is a procedural mistake, i.e., a mistake due to incorrect keystep ordering;
+        - Predict a list of missing keysteps. These are keysteps which should have been performed before $s_i$ but have not been performed;
+        - Forecast next keysteps. These are keysteps for which dependencies are satisfied after the execution of $s_i$ and hence can be executed next.
+
+    - Energy Efficient [[link](https://docs.ego-exo4d-data.org/benchmarks/keystep/energy_efficient/)]
+        ```shell
+        [Input]:
+        - Egocentric video of arbitrary length T comprising a stream of K different sensory modalities (e.g., RGB images, audio, etc.)
+        - Energy budget
+
+        [Output]
+        - Per-frame keystep label (the prediction happens at 5 fps)
+        - Estimated inference energy consumption
+        ```
+
+2. 
 
