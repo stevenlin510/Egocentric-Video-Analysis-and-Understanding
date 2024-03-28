@@ -66,6 +66,9 @@
 ### 2022
 > 1. **(ECCV) My View is the Best View: Procedure Learning from Egocentric Videos** [[link](https://arxiv.org/pdf/2207.10883.pdf)]
 
+### 2023
+> 1. **(ICCV) STEPs: Self-Supervised Key Step Extraction and Localization from Unlabeled Procedural Videos** [[link](https://arxiv.org/pdf/2307.07483.pdf)]
+
 ## Popular Model Architectures
 ### `2D`
 1. (CVPR 2020) GSM - *Gate-Shift Networks for Video Action Recognition* [[link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sudhakaran_Gate-Shift_Networks_for_Video_Action_Recognition_CVPR_2020_paper.pdf)] 
