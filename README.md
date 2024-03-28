@@ -83,7 +83,7 @@ for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content
 4. (ICCV 2021) ViViT - *ViViT: A Video Vision Transformer* [[link](https://openaccess.thecvf.com/content/ICCV2021/papers/Arnab_ViViT_A_Video_Vision_Transformer_ICCV_2021_paper.pdf)]
 
 ### Benchmarks
-1. Keystep (Ego-exo)
+1. **Keystep (Ego-exo)**
     - Fine-grained Keystep Recognition [[link](https://docs.ego-exo4d-data.org/benchmarks/keystep/keystep_recoginition/)]
 
         ```shell
@@ -116,7 +116,7 @@ for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content
         - Estimated inference energy consumption
         ```
 
-2. Ego-exo relations
+2. **Ego-exo relations**
     - Correspondence [[link](https://docs.ego-exo4d-data.org/benchmarks/relations/correspondence/)]
 
         ```shell
@@ -129,25 +129,45 @@ for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content
         ```
     - Translation [[link](https://docs.ego-exo4d-data.org/benchmarks/relations/translation/)]
 
-3. Proficiency Estimation (Ego-exo) [[link](https://docs.ego-exo4d-data.org/benchmarks/proficiency_estimation/)
-]
-- Demonstrator proficiency estimation: the goal is to estimate the absolute skill level of a participant at the task.
-    ```shell
-    [Input]
-        - Egocentric video clip
-        - [Optional] Exocentric videos synchronized within timestamp
+3. **Proficiency Estimation (Ego-exo)** [[link](https://docs.ego-exo4d-data.org/benchmarks/proficiency_estimation/)]
+    - Demonstrator proficiency estimation: the goal is to estimate the absolute skill level of a participant at the task.
+        ```shell
+        [Input]
+            - Egocentric video clip
+            - [Optional] Exocentric videos synchronized within timestamp
 
-    [Output]
-        Proficiency label: Novice, Early Expert, Intermediate Expert, Late Expert
-    ```
-- Demonstration proficiency estimation: the goal is to perform fine-grained analysis of a given task execution to identify good actions from the participant and suggest tips for improvement. 
-    ```shell
-    [Input]
-        - Egocentric video clip
-        - [Optional] Exocentric videos synchronized within timestamp
+        [Output]
+            Proficiency label: Novice, Early Expert, Intermediate Expert, Late Expert
+        ```
+    - Demonstration proficiency estimation: the goal is to perform fine-grained analysis of a given task execution to identify good actions from the participant and suggest tips for improvement. 
+        ```shell
+        [Input]
+            - Egocentric video clip
+            - [Optional] Exocentric videos synchronized within timestamp
 
-    [Output]
-        - Temporal localization of a proficiency category: list of tuples, each containing a timestamp, a proficiency category (i.e., good execution or needs improvement), and its probability
-    ```
+        [Output]
+            - Temporal localization of a proficiency category: list of tuples, each containing a timestamp, a proficiency category (i.e., good execution or needs improvement), and its probability
+        ```
+4. Goal-Step (Ego) [[link](https://github.com/facebookresearch/ego4d-goalstep)]
+    - video_uid: unique video ID
+    - start_time: A timestamp where a goal segment starts (in seconds)
+    - end_time: A timestamp where a goal segment ends (in seconds)
+    - goal_category: Goal category name
+    - goal_description: Natural language description of the goal
+    - goal_wikihow_url: A wikiHow URL that best captures the steps captured in the video
+    - summary: A list of natural language descriptions summarizing steps captured in the video
+    - is_procedural: Binary flag indicating whether the current segment contains procedural steps
+    - segments: A list of step segments
+    - start_time: A timestamp where a step segment starts (in seconds)
+    - end_time: A timestamp where a step segment ends (in seconds)
+    - step_category: Step category name (shares the same taxonomy with substep categegories)
+    - step_description: Natural language description of the step
+    - is_continued: Binary flag indicating whether the current segment contains a step that is continued from an earlier segment
+    - is_procedural: Binary flag indicating whether the current segment contains procedural steps
+    - is_relevant: A flag indicating whether the current segment is essential, optional, or irrelevant to the (parent) goal segment
+    - summary: A list of natural language descriptions summarizing substeps captured in the video
+        - segments: A list of substep segments `
+    
+
 
 
