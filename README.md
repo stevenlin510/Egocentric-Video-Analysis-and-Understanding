@@ -27,6 +27,8 @@
 > 2. **(ICCV) Helping Hands: An Object-Aware Ego-centric Video Recognition Model** [[link](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Helping_Hands_An_Object-Aware_Ego-Centric_Video_Recognition_Model_ICCV_2023_paper.pdf)]
 
 ## Visual Representation (ego-exo)
+### 2018
+> 1. **(CVPR) Actor and Observer: Joint Modeling of First and Third-Person Videos** [[link](https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Sigurdsson_Actor_and_Observer_CVPR_2018_paper.pdf)]
 
 ### 2021
 
