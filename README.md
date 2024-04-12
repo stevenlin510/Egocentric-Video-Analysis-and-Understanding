@@ -16,6 +16,9 @@
 > 6. **(CVPR) AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation** [[link](https://openaccess.thecvf.com/content/CVPR2023/papers/Ohkawa_AssemblyHands_Towards_Egocentric_Activity_Understanding_via_3D_Hand_Pose_Estimation_CVPR_2023_paper.pdf)]
 > 7. **MIMIC-IT: Multi-Modal In-Context Instruction Tuning** [[link](https://arxiv.org/pdf/2306.05425.pdf)]
 
+### 2024
+> 1. **EgoExoLearn: A Dataset for Bridging Asynchronous Ego-and Exo-centric View of Procedural Activities in Real World** [[link](https://arxiv.org/pdf/2403.16182.pdf)]
+
 ## Video-Language Pretraining Model
 ### 2022
 
