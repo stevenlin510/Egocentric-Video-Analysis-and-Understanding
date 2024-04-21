@@ -94,9 +94,10 @@ for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content
 1. (CVPR 2022) MAE - *Masked Autoencoders are Scalable Vision Learners* [[link](https://arxiv.org/pdf/2111.06377.pdf)]
 2. (CVPR 2022) VideoMAE - *VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training* [[link](https://arxiv.org/pdf/2203.12602.pdf)]
 
-### `Mamba`
-1. VisionMamba - *Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model* [[link](https://arxiv.org/pdf/2401.09417.pdf)]
-2. VideoMamba - *Videomamba: State Space Model for Efficient Video Understanding* [[link](https://arxiv.org/pdf/2403.06977.pdf)]
+### `State Space Model`
+1. (CVPR 2023) *Selective Structured State-Spaces for Long-Form Video Understanding* [[link](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Selective_Structured_State-Spaces_for_Long-Form_Video_Understanding_CVPR_2023_paper.pdf)]
+2. VisionMamba - *Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model* [[link](https://arxiv.org/pdf/2401.09417.pdf)]
+3. VideoMamba - *Videomamba: State Space Model for Efficient Video Understanding* [[link](https://arxiv.org/pdf/2403.06977.pdf)]
 ### Benchmarks
 1. **Keystep (Ego-exo)**
     - Fine-grained Keystep Recognition [[link](https://docs.ego-exo4d-data.org/benchmarks/keystep/keystep_recoginition/)]
