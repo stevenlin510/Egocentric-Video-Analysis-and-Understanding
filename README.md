@@ -96,8 +96,9 @@ for Egocentric Action Recognition* [[link](https://openaccess.thecvf.com/content
 
 ### `State Space Model`
 1. (CVPR 2023) *Selective Structured State-Spaces for Long-Form Video Understanding* [[link](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Selective_Structured_State-Spaces_for_Long-Form_Video_Understanding_CVPR_2023_paper.pdf)]
-2. VisionMamba - *Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model* [[link](https://arxiv.org/pdf/2401.09417.pdf)]
-3. VideoMamba - *Videomamba: State Space Model for Efficient Video Understanding* [[link](https://arxiv.org/pdf/2403.06977.pdf)]
+2. VMamba - *VMamba: Visual State Space Model* [[link](https://arxiv.org/pdf/2401.10166.pdf)]
+3. VisionMamba - *Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model* [[link](https://arxiv.org/pdf/2401.09417.pdf)]
+4. VideoMamba - *Videomamba: State Space Model for Efficient Video Understanding* [[link](https://arxiv.org/pdf/2403.06977.pdf)]
 ### Benchmarks
 1. **Keystep (Ego-exo)**
     - Fine-grained Keystep Recognition [[link](https://docs.ego-exo4d-data.org/benchmarks/keystep/keystep_recoginition/)]
